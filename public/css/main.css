@@ -1,0 +1,26 @@
+.main {
+  height: 80vh;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 120px;
+  height: 120px;
+}
+
+.main-square {
+  height: 240px;
+}
+
+.main-square__left {
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+
+.main-square__right {
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
